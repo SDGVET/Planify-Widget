@@ -1,0 +1,12 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Category": "Utilities",
+        "Description": "Shows overdue, today, upcoming and important Planify tasks (read-only)",
+        "Icon": "view-task",
+        "Id": "local.planify.tasks",
+        "Name": "Planify Tasks",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

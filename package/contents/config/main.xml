@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="soonDays" type="Int">
+      <label>Number of days counted as due soon</label>
+      <default>3</default>
+      <min>1</min>
+      <max>30</max>
+    </entry>
+    <entry name="minPriority" type="Int">
+      <label>Lowest priority shown as important (P1=4, P2=3, P3=2)</label>
+      <default>4</default>
+      <min>2</min>
+      <max>4</max>
+    </entry>
+    <entry name="staleMinutes" type="Int">
+      <label>Minutes Planify can be closed with unchanged data before warning</label>
+      <default>60</default>
+      <min>5</min>
+      <max>1440</max>
+    </entry>
+  </group>
+</kcfg>
